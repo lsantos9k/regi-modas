@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; overflow-x: clip; }
+  body { @apply overflow-x-clip bg-white text-ink font-sans font-light antialiased; }
+  h1, h2, h3 { @apply font-serif font-normal tracking-tight; }
+}
+
+@layer utilities {
+  .no-scrollbar { scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .link-underline { @apply relative; }
+  .link-underline::after {
+    content: ''; @apply absolute left-0 -bottom-0.5 h-px w-full origin-left scale-x-0 bg-current transition-transform duration-300;
+  }
+  .link-underline:hover::after { @apply scale-x-100; }
+}
+
