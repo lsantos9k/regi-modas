@@ -35,10 +35,13 @@ export default function Hero() {
         >
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.3em] text-accent">Araçoiaba da Serra</p>
           <h1 className="text-[clamp(2.25rem,6vw,4.75rem)] leading-[1.05]">
-            Vista-se de qualidade. Descubra a <em className="italic text-accent">regi modas.</em>
+            Regi Modas
           </h1>
           <p className="mt-5 max-w-prose text-base leading-relaxed text-ink/70 md:text-lg">
-            A melhor loja de Araçoiaba da Serra com coleções completas em moda adulto, infantil e bolsas. Venha conhecer ou compre sem sair de casa.
+            A loja mais completa em Enxoval e Acessórios para Bebê de Araçoiaba da Serra, Moda Infantil, Juvenil e Adulto até o Plus Size.
+          </p>
+          <p className="mt-3 max-w-prose text-base leading-relaxed text-ink/70 md:text-lg">
+            Venha conhecer ou compre sem sair de casa, grandes marcas como: Brandili, Kiko&amp;Kika, Elian, Boca Grande, Malwee, Cativa, Rovitex, Alcalde, Olho Fatal, etc.
           </p>
           <a
             href={WHATSAPP_URL}
